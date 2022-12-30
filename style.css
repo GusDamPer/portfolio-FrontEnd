@@ -1,0 +1,23 @@
+.list-group {
+    --bs-list-group-bg: transparencia;
+    --bs-list-group-border-color: transparencia;
+    --bs-list-group-item-padding-x: 0;
+}
+
+.btn-primary {
+    --bs-btn-color: transparencia;
+    --bs-btn-bg: transparencia;
+    --bs-btn-border-color: transparencia;
+    --bs-btn-hover-color: grey;
+    --bs-btn-hover-bg: transparencia;
+    --bs-btn-hover-border-color: transparencia;
+}
+.btn {
+    --bs-btn-padding-x: 0;
+    --bs-btn-padding-y: 0;
+}
+
+.fotoperfil {
+    position: relative;
+    top: -5rem;
+}
