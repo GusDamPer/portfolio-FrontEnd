@@ -19,7 +19,8 @@
 
 .fotoperfil {
     position: relative;
-    top: -5rem;
+    margin-top: -100px;
+    width: 200px;
 }
 
 /* figure {
