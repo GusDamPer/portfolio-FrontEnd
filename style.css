@@ -26,3 +26,19 @@
 /* figure {
     margin: 0 1em;
 } */
+
+section {
+    margin: 0em 1em;
+}
+
+.tit1 {
+    margin: 0em 1;
+}
+
+.logo {
+    width: 4em;
+}
+
+h5 {
+    color: #777;
+}
