@@ -2,6 +2,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+    background-color: #eee;
+}
+
 .list-group {
     --bs-list-group-bg: transparencia;
     --bs-list-group-border-color: transparencia;
@@ -83,4 +87,9 @@ h5 {
 
 .contenido {
     padding: 5px 5px 5px 30px;
+}
+
+.skills {
+    text-align: center;
+    padding: 10px 150px;
 }
