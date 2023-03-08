@@ -23,6 +23,8 @@ body {
 #redes {
     --bs-btn-padding-x: 0;
     --bs-btn-padding-y: 0;
+    display: flex;
+    align-items: center;
 }
 
 .presentacion {
@@ -47,9 +49,18 @@ body {
 
 .fotoperfil {
     position: relative;
-    margin-top: -110px;
+    margin-top: -55px;
     margin-left: 1em;
-    width: 200px;
+    width: 100px;
+}
+
+@media screen and ( min-width: 500px ) {
+    .fotoperfil {
+        position: relative;
+        margin-top: -110px;
+        margin-left: 1em;
+        width: 200px;
+    }
 }
 
 .nombre {
