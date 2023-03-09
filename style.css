@@ -6,10 +6,52 @@ body {
     background-color: #eee;
 }
 
+#yoProgramo {
+    display: none;
+}
+
+.toggle-menu {
+    position: absolute;
+    right: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+    .toggle-menu {
+        display: none;
+    }
+    #yoProgramo {
+        display: inline-block;
+    }
+}
+
 .list-group {
     --bs-list-group-bg: transparencia;
     --bs-list-group-border-color: transparencia;
     --bs-list-group-item-padding-x: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    flex-direction: row;
+    transition: transform 0.3s;
+    transform: translateY(-200%);
+}
+
+.list-group--show {
+    transform: translateY(0);
+}
+
+@media screen and (min-width: 768px) {
+    .list-group {
+        flex-direction: row;
+        transform: translateY(0);
+    }
+}
+
+#list-group {
+    --bs-btn-padding-x: 0;
+    --bs-btn-padding-y: 0;
 }
 
 #login {
@@ -19,12 +61,6 @@ body {
     --bs-btn-hover-color: rgb(134, 134, 134);
     --bs-btn-hover-bg: transparencia;
     --bs-btn-hover-border-color: transparencia;
-}
-#redes {
-    --bs-btn-padding-x: 0;
-    --bs-btn-padding-y: 0;
-    display: flex;
-    align-items: center;
 }
 
 .presentacion {
